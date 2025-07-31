@@ -102,6 +102,16 @@ body{
 .edit-btn{
     background-color: #fe424d !important;
     border: none !important;
+    color: white !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #e63946 !important;
 }
 
 /* Show Image */
@@ -119,7 +129,17 @@ body{
 }
 
 /* Map */
-#map{
-   height: 400px;
-   width: 80vh;
+#map {
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+    }
+}
+
