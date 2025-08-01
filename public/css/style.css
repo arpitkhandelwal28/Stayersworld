@@ -99,24 +99,10 @@ body{
 }
 
 /* Edit Page */
-.edit-btn {
+.edit-btn{
     background-color: #fe424d !important;
     border: none !important;
-    color: white !important;
-    padding: 0.5rem 1rem !important;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-right: 0.5rem; /* for spacing from Delete button */
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
 }
-.edit-btn:hover {
-    background-color: #e63946 !important;
-}
-
 
 /* Show Image */
 .show-img{
@@ -125,9 +111,6 @@ body{
 
 .btns{
     display: flex;
-    gap: 1rem; 
-    flex-wrap: wrap;
-    margin-top: 1rem;
 }
 
 .show-card{
@@ -136,17 +119,7 @@ body{
 }
 
 /* Map */
-#map {
-    height: 400px;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 8px;
+#map{
+   height: 400px;
+   width: 80vh;
 }
-
-@media (max-width: 768px) {
-    #map {
-        height: 300px;
-    }
-}
-
