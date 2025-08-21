@@ -48,12 +48,3 @@ wanderlust/
 │── public/         # Static files (CSS, JS, images)
 │── app.js          # Main application entry point
 │── package.json    # Dependencies and scripts
-
-
-
-
-
-
-
-
-  
