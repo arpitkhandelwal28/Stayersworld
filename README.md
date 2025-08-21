@@ -48,3 +48,24 @@ wanderlust/
 │── public/         # Static files (CSS, JS, images)
 │── app.js          # Main application entry point
 │── package.json    # Dependencies and scripts
+
+---
+
+## ⚡ Installation & Setup  
+
+```bash
+# Clone the repository
+git clone https://github.com/arpitkhandelwal28/stayersworld.git
+
+# Navigate to project folder
+cd stayersworld
+
+# Install dependencies
+npm install
+
+# Create .env file and add:
+MONGO_URI=your_mongo_connection
+SESSION_SECRET=your_secret
+
+# Start the server
+npm start
