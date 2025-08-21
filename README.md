@@ -48,4 +48,11 @@ wanderlust/
 │── public/         # Static files (CSS, JS, images)
 │── app.js          # Main application entry point
 │── package.json    # Dependencies and scripts
-...
+```
+## Please give a star ⭐ to the repository if you like it.
+
+## Contact
+
+Arpit Khandelwal - [GitHub](https://github.com/arpitkhandelwal28)
+
+Project Link: [https://github.com/arpitkhandelwal28/Stayersworld.git]
